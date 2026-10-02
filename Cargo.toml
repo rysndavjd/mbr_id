@@ -1,0 +1,17 @@
+[package]
+authors = ["rysndavjd"]
+categories = ["data-structures", "no-std", "parser-implementations"]
+name = "mbr_id"
+readme = "README.md"
+version = "0.1.0"
+edition = "2024"
+include = ["src", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+description = "A library to generate and parse MBR IDs and pseudo MBR partition IDs"
+license = "Apache-2.0 OR MIT"
+
+[dependencies]
+
+[features]
+default = ["std", "alloc"]
+std = []
+alloc = []
